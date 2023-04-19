@@ -31,7 +31,7 @@ use crate::violation::Violation;
 /// try:
 ///     ...
 /// except ValueError as e:
-///     logger.exception(f"Found an error")
+///     logger.exception("Found an error")
 /// ```
 #[violation]
 pub struct VerboseLogMessage;
